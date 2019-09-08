@@ -170,6 +170,9 @@ The goal of this assignment is to put you in touch with the fork-pullrequest pro
 
 
 ```
+Part 2
+I would describe my experience utilizing github on pull/ fork request went fairly smooth.
+
 
 
 
