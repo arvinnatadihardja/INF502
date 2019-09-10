@@ -32,10 +32,12 @@ represent the content you need to fill and post on your private repository
 1. Draw a diagram of the commits and branches in repository.
 
     - Use `git branch` to list the branches in this repository.
-```
-        *master
-        *math
     - Use `git checkout` to explore each branch.
+    - Use `git log --decorate` to explore the structure of commits.
+
+
+```
+ Git Branch: 
   Arvins-MacBook-Pro:handson arvinnatadihardja$ git branch
 * master
   math
@@ -45,8 +47,7 @@ Arvins-MacBook-Pro:handson arvinnatadihardja$ git branch
   master
 * math
 
-        
-    - Use `git log --decorate` to explore the structure of commits.
+ Git Log --Decorate:     
         Arvins-MacBook-Pro:handson arvinnatadihardja$ git log --decorate
 commit e3c629dd524712aedea96d7dbaad1c50d12b5b5e (HEAD -> math)
 Author: Igor Steinmacher <igorsteinmacher@gmail.com>
