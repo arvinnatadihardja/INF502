@@ -32,6 +32,7 @@ represent the content you need to fill and post on your private repository
 1. Draw a diagram of the commits and branches in repository.
 
     - Use `git branch` to list the branches in this repository.
+```
         *master
         *math
     - Use `git checkout` to explore each branch.
@@ -66,17 +67,18 @@ Date:   Wed Aug 14 23:08:47 2019 -0700
      Creating all files (all empty)
 ```
 
+2. Try `git log --graph --all` to see the commit tree. What do you see?
+
 
 ```
-
-2. Try `git log --graph --all` to see the commit tree. What do you see?
 Git log graph function, display the graph log for commit tree
-
 
 ```
 
 3. Use `git diff BRANCH_NAME` to view the differences from a branch and the current branch.
-   Summarize the difference from master to the other branch.
+   
+```
+Summarize the difference from master to the other branch.
     The current branch (math) is lacking :-   print 'my knowledge is limited'    
     The other branch (master) lacking : 
     +   if operator == 'sum':
@@ -88,22 +90,22 @@ Git log graph function, display the graph log for commit tree
     +         print 'I could handle that...'
     +      else:
     +         print 'my knowledge is limited'
-```
-
 
 ```
 
 4. Write a command sequence to merge the non-master branch into `master`
-    git merge math\master
+    
 
 
 ```
-
+git merge math\master
+```
 
 5. Write a command (or sequence) to (i) create a new branch called `math` (from the `master`) 
 and (ii) change to this branch
-math already exist; can't create another branch called math
 
+```
+math already exist; can't create another branch called math
 
 ```
    
@@ -112,7 +114,10 @@ math already exist; can't create another branch called math
 echo 'I Know Math Look:' >> B.py
 echo 2+2 >> B .py
 
+```
+
 7. Write a command (or sequence) to commit your changes
+```
 git add .
 git commit -a -m 'editing b.py'
 
@@ -134,16 +139,18 @@ Merge conflict happens because we're trying to edit the same exact section on th
 ```
    
 10. Write a set of commands to abort the merge
+```
 git merge --abort
-
 
 ```
    
 11. Now repeat item 9, but proceed with the manual merge (Editing B.py). All implemented methods are needed. Explain your procedure
+```
 for some reason, my bash is not allowing me to merge the 2 files. 
 ```
 
 12. Write a command (or set of commands) to proceed with the merge and make `master` branch up-to-date
+```
 put the comment in
 press ":wq" to quit
 
@@ -166,12 +173,11 @@ The goal of this assignment is to put you in touch with the fork-pullrequest pro
 3. Send your file back to this repository until creating a pull request (your pull request needs to appear [here](https://github.com/igorsteinmacher/CS502-Fall2019/pulls)).
 
 4. Report your experience of making this submission, including the steps followed, commands used, and hurdles faced (within the file you created for the **Part 1**.
-```
-
 
 ```
 Part 2
 I would describe my experience utilizing github on pull/ fork request went fairly smooth.
+```
 
 
 
