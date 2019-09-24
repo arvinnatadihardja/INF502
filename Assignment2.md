@@ -16,6 +16,7 @@ The function returns the length of the hypotenuse assuming that `length_a` and `
 from math import sqrt
 
 print("Lengths of shorter triangle sides?:")
+def pythagoreanTheorem (length_a, length_b)
 a = float(input("a: "))
 b = float(input("b: "))
 
