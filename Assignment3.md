@@ -20,15 +20,15 @@ def value_of_a_wallet(x1 , x2 , x3 , x4 ,x5) :
     print ("The fattest wallet: " , highestValue)
     print ("The skinniest wallet: " , lowestValue)
     print ("The total value of the wallet : " , totalValue)
-    print ("All together, the total value of these wallets is worth: " , dimes)
+    print ("All together, the total value of these wallets in dimes: " , dimes)
 
 
-value_of_a_wallet(50, 100, 150, 200, 250)
-
+    value_of_a_wallet(50, 100, 150, 200, 250)
 
 def periodic_table() :
 
     exit = False
+    elementList = []
 
     while(exit == False):
         elementName = input("Enter a element name: ")
@@ -41,7 +41,7 @@ def periodic_table() :
                    "row": elementRow,
                    "column": elementCol}
 
-        elementList = []
+
         elementList.append(element)
 
         getBol = input("Do you want to get data about an element (yes or no)")
@@ -65,7 +65,7 @@ def periodic_table() :
 
 
 
-periodic_table()
+    periodic_table()
 
 
 
